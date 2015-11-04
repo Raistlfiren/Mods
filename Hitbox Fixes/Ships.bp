@@ -1,0 +1,83 @@
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "ues0103",						#UEF Frigate
+	Weapon = {
+		{
+			MuzzleVelocityReduceDistance = 20,
+			TurretPitchRange = 40,
+		},
+	},
+}
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "uas0103",						#Aeon Frigate
+	Weapon = {
+		{
+			MuzzleVelocityReduceDistance = 20,
+		},
+		{
+			MuzzleVelocityReduceDistance = 20,
+		},		
+	},
+}
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "urs0103",						#Cybran Frigate
+	Weapon = {
+		{
+			MuzzleVelocityReduceDistance = 20,
+		},
+	},
+}
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "xss0103",						#Seraphim Frigate
+	Weapon = {
+		{
+			MuzzleVelocityReduceDistance = 20,
+		},
+	},
+}
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "xss0201",						#Seraphim Destroyer
+	Weapon = {
+		{
+			TurretPitchRange = 40,
+		},
+		{
+			TurretPitchRange = 40,
+		},		
+	},
+}
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "urs0201",						#Cybran Destroyer	
+	AI = {
+		TargetBones = {
+            'Turret_AA',
+            'Turret_Cannon',
+			'Stern',
+			'URS0201',			
+            'WakeFront_L',
+            'WakeFront_R',
+		},
+	},	
+	CollisionOffsetY = -0.4,
+	CollisionOffsetZ = 0.1,
+	SizeX = 1.8,
+	SizeY = 1.6,
+	SizeZ = 4.8,
+}
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "xes0307",						#UEF Battlecruiser
+	Weapon = {
+		{
+			TurretPitchRange = 40,
+		},
+		{
+			TurretPitchRange = 40,
+		},		
+	},
+}
